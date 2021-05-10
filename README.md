@@ -27,7 +27,7 @@ Flightgear's pre-requisites, source repository, build configuration, compilation
 Running Flightgear from the command line, command line options, configuration files and logging
 ### Generic Computer Programming
 FlightGear Features Common to Most Computer Programs - Menus, Dialogs, Windows, Main Loop, Configuration, Command Line Options, Add-Ons, Logging, IO
-### Library Usag
+### Library Usage
 Which libraries are used for what
 ### Graphics Programming
 FlightGear and SimGear features that enable graphics programming - Canvas and OpenSceneGraph

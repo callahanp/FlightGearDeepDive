@@ -44,6 +44,7 @@ Features that use the network - Multiplayer, FGCOM, PHI, DDS, HLA, Swift, http
 #### Plib Menus
 #### Mostly Single Threaded
 
+## Project Intent
 
 My intent is not to write in detail about every aspect of the program, 
 but to provide a summary and outline information one can use to work 
@@ -52,15 +53,14 @@ work across C++ code, Nasal Scripts, XML and other data on specific tasks.
 It should include information on the Flightgear materials and tools needed to explore and work on them.  
 
 Initially, most of them will be short outlines with notes references 
-to specific files, folders.  They'll aim to identify the major classes and highlight 
-important relationships and flows of data and process between them.
+to specific files, folders. Initially this information will be in spreadsheet form. Expanded topics will aim to identify the major classes main methods and highlight important relationships and flows of data and process between parts of flightgear.
 
-Your work is to do a bit of reading, a bit of stepping through code, some reading of data and getting whatever task you've taken on in the Flightgear realm done.
+Your work is to do a bit of reading, a bit of stepping through code, some reading of data and getting whatever task you've taken on in the Flightgear realm done.  That and maybe contribute to this effort.  but this isn't a wiki.
 
 One of the primary tools for investigation will be the gdb debugger, and we'll use scripts that can be
 run within the debugger to highlight specific parts of FlightGear. The scripts are intended to make specific features easy to navigate through by providing breakpoints and notes about what to look for or examine closely.
 
-A Libre Office spreadsheet will contain information gleaned from Flighgear, Simgear and fgdata, organizing information around subsystems and the topics listed above.
+A Libre Office spreadsheet will contain information gleaned from Flighgear, Simgear and fgdata files, organizing information around subsystems and the topics listed above.
 
 A Flightgear run script is provided, capable of running flightgear with or without a debugger, using gdb or gdbgui.  I use the same run script for flying.without starting a debugger.
 

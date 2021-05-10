@@ -27,6 +27,11 @@ Flightgear's pre-requisites, source repository, build configuration, compilation
 Running Flightgear from the command line, command line options, configuration files and logging
 ### Generic Computer Programming
 FlightGear Features Common to Most Computer Programs - Menus, Dialogs, Windows, Main Loop, Configuration, Command Line Options, Add-Ons, Logging, IO
+### Existing Design Choices
+#### Subsystems & Subsystem Groups
+#### The Property Tree
+#### Plib Menus
+#### Mostly Single Threaded
 ### Library Usage
 Which libraries are used for what
 ### Graphics Programming
@@ -39,10 +44,6 @@ Features related to Terrain, Bodies of Water, Buildings, Roadways, Power Lines, 
 Features specific to Flight Simulation - Airports, Aircraft, Flight Dynamics
 ### Network Programming
 Features that use the network - Multiplayer, FGCOM, PHI, DDS, HLA, Swift, http
-### Existing Design Choices
-#### The Property Tree
-#### Plib Menus
-#### Mostly Single Threaded
 
 ## Project Intent
 
